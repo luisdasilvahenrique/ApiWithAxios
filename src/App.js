@@ -1,7 +1,14 @@
-function App() {
+import { useState } from "react";
+import api from './services/api'
+
+export default function App() {
+  const [user, setUser] = useState();
+
   return (
-    <h1> Olá terra! </h1>
+    <div className="App">
+      <p>Usuário: {user.login}</p>
+      <p> Biografia: {user.bio}</p>
+    </div>
   );
 }
 
-export default App;
