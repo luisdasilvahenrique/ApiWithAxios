@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.App{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.App p strong{
+    font-size: medium;
+}
